@@ -57,6 +57,11 @@ git clone https://github.com/saisaranya2005/Sahridaya-Chatbot.git
 # Navigate to the project directory
 cd sahridaya-chatbot
 
+# set up a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate  # On Windows
+
 # Install required packages
 pip install -r requirements.txt
 
